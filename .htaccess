@@ -1,6 +1,6 @@
 # Evitar la exploración de directorios
 Options -Indexes
 
-# Redirigir todas las peticiones a start.php
+# Redirigir todas las peticiones a index.html
 RewriteEngine On
-RewriteRule ^(.*)$ start.php [L,QSA]
+RewriteRule ^(.*)$ index.html [L,QSA]
